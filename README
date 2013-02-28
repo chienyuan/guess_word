@@ -3,7 +3,8 @@ guess_word
 
 4 pics 1 word search app
 
-Requirement
+Requirement 
+
 1. install aspell 
 Redhat: 
   sudo yum install aspell 
