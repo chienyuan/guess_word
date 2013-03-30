@@ -3,6 +3,9 @@ guess_word
 
 4 pics 1 word search app
 
+Usage: ./guess.rb pattern letters
+Example: ./guess.rb ......Y  GERMARY
+
 Requirement 
 
 1. install aspell 
