@@ -18,7 +18,7 @@ pattern  =  args.shift.upcase.split('').to_a
 length = 0
 pattern_flag = false
 pattern.each do |x|
-  if x == '.'
+  if x == '*'
     length = length + 1
   else
     pattern_flag = true
@@ -43,7 +43,7 @@ letters.permutation(length).entries.each do |y|
     if pattern_flag
       aword = []
       pattern.each do |x|
-        if x == '.'
+        if x == '*'
           aword.push y.shift
         else
           aword.push x
